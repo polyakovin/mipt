@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main-menu {
+  width: 1020px;
+  margin: 20px auto 20px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.menu-block {
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.menu-block-2 {
+  width: 400px;
+  height: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.menu-block-2 p{
+  margin-top: 20px;
+}
+
+.menu-block p{
+  margin: 15px auto;
+  text-align: center;
+}
+
+.line-1 {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+}
+
+.project-container {
+  width: 1020px;
+  margin: 20px auto 20px auto;
+  display: flex;
+}
+
+.column-left {
+  width: 220px;
+  height: 100%;
+}
+
+.name-project {
+  width: 320px;
+  height: 30px;
+  text-align: right;
+  background-color: #ebebeb;
+}
+
+.list-projects {
+  width: 320px;
+  height: 280px;
+  margin-left: -120px;
+  border-radius: 0 20px 10px 0;
+  background-color: #ebebeb;
+}
+
+.list-projects p{
+  margin-top: 5px;
+}
+
+.name-project p{
+  font-size: 18px;
+  padding-top: 5px;
+  margin-right: 40px;
+}
+
+.name-project a{
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.name-project:hover{
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.column-right {
+  width: 800px;
+  height: 100%;
+}
+
+.line-2 {
+  width: 200px;
+  height: 2px;
+  margin: 20px 0 15px auto;
+  text-align: right;
+  background-color: #ccc;
+}
+
+.info-block {
+  text-align: right;
+}
+
+.header-name h2{
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+
+.line-3 {
+  width: 200px;
+  height: 2px;
+  margin: 30px 0 40px auto;
+  text-align: right;
+  background-color: #ccc;
+}
+
+.text-block {
+  text-align: left;
+}
+
+.video-block {
+  width: 800px;
+  height: 400px;
+  background-color: #ccc;
+  margin: 20px auto 20px auto;
+}
+
+.video-block p{
+  text-align: center;
+  padding-top: 180px;
+  font-size: 20px;
+}
+
+.text-block-2 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.bottom-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.bottom-block {
+  width: 185px;
+  height: 130px;
+  background-color: #ccc;
+
+}

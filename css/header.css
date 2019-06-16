@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #eaeaea;
+}
+
+.header a{
+  color: #000 !important;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link-1 {
+  margin: 10px 0 auto 0px;
+}
+
+.link-2 {
+  margin: 10px 0 auto 30px;
+}
+
+.link-3 {
+  margin: 10px 0 auto 30px;
+}
+
+.search {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.header-menu {
+  width: 1020px;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+

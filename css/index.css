@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main-menu {
+  width: 1020px;
+  margin: 20px auto 20px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.menu-block {
+  width: 185px;
+  height: 80px;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.menu-block p{
+  text-align: center;
+  margin: 30px auto;
+}
+
+.index-container {
+  width: 1020px;
+  margin: 10px auto;
+}
+
+.line-1 {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+}
+
+.slaider {
+  width: 1020px;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #ccc;
+}
+
+.slaider p {
+  margin: auto;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.line-2 {
+  width: 200px;
+  height: 2px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.block h1 {
+  margin: 20px auto;
+  font-size: 29px;
+  text-align: center;
+}
+
+.window {
+  width: 450px;
+  float: left;
+  height: 250px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #ccc;
+
+}
+
+.list {
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+.line-3 {
+  width: 200px;
+  height: 2px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #b7b7b7;
+}
+
+.composition-header h2 {
+  margin: 20px auto;
+  font-size: 29px;
+  text-align: center;
+}
+
+.composition {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.photo-1, .photo-2, .photo-3 {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto 20px auto;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.composition li {
+  list-style: none;
+}
+
+.column-1, .column-2, .column-3 {
+  width: 430px;
+  text-align: left;
+}
+
+.composition h3{
+  margin: 20px 0px 20px 70px;
+}
+
+.composition span{
+  font-weight: bold;
+}
+
+.data-list {
+  margin-left: 50px;
+}
+
+.add-info {
+  width: 260px;
+  margin: 30px 0 90px 50px;
+}
+
+.line-4 {
+  width: 200px;
+  height: 2px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #b7b7b7;
+}
+
+.schedule-header h2{
+  margin: 20px auto 80px auto;
+  font-size: 29px;
+  text-align: center;
+}
+
+.schedule {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.data {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #c6c6c6;
+  margin: 10px auto 25px auto;
+  border-radius: 50%;
+}
+
+.data {
+  text-align: center;
+}
+
+.number {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.number {
+  height: 52px;
+  font-size: 52px;
+  text-align: center;
+}
+
+.month {
+  text-align: top;
+}
+
+.column-data-1,
+.column-data-2,
+.column-data-3,
+.column-data-4,
+.column-data-5,
+.column-data-6,
+.column-data-7 {
+  text-align: center;
+}
+
+.event-1 {
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.schedule-header-2 {
+  color: black;
+  margin: 20px auto 50px auto;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none
+}
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.previous-week,
+.next-week {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #ccc;
+}
+
+.previous-week {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.next-week {
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.previous-week a{
+  margin: 15px 0 auto 80px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.next-week a{
+  margin: 15px 0 auto 85px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.line-5 {
+  width: 200px;
+  height: 2px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #b7b7b7;
+}
+
+.contacts-header h2 {
+  margin: 20px auto 80px auto;
+  font-size: 29px;
+  text-align: center;
+}
+
+.contacts {
+  width: 920px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 50px;
+  align-content: center;
+  margin-bottom: 70px;
+  justify-content: space-between;
+}
+
+.contacts-block {
+  width: 230px;
+}
+
+.contacts .string {
+  font-weight: bold;
+}
+
+.string, .string-2, .string-3 {
+  width: 205px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.string-3 {
+  margin-left: 10px;
+}
+
+.line-6 {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+}
