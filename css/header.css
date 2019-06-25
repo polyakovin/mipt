@@ -1,38 +1,109 @@
+:root {
+  --blue: #1471b7;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
 .header {
   width: 100%;
-  height: 40px;
-  background-color: #eaeaea;
+  background-color: var(--blue);
+  color: white;
+  padding: 10px;
 }
 
-.header a{
-  color: #000 !important;
-  font-size: 14px;
-  text-decoration: none;
+.header .container {
+  display: flex;
 }
 
-.link-1 {
-  margin: 10px 0 auto 0px;
+.header p {
+  line-height: 1.2;
+  margin: 0;
 }
 
-.link-2 {
-  margin: 10px 0 auto 30px;
+.header .link-contacts {
+  margin: 6px 10px;
 }
 
-.link-3 {
-  margin: 10px 0 auto 30px;
+.header .link-contacts a {
+  color: white;
+}
+
+.logo-mipt {
+  background: url(../imgs/logo_mipt.png) no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .search {
-  margin-top: 10px;
   margin-left: auto;
   margin-right: 0;
 }
 
-.header-menu {
-  width: 1020px;
-  height: 30px;
-  margin: auto;
-  display: flex;
-  flex-wrap: nowrap;
+.main-menu {
+  margin: 20px auto;
+  text-align: center;
 }
 
+.main-menu .col {
+  height: 70px;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+}
+
+.main-menu .col:hover {
+  opacity: .8;
+}
+
+.main-menu .col a {
+  color: black;
+  align-self: center;
+}
+
+.main-menu .col a:hover {
+  text-decoration: none;
+}
+
+.main-menu .col:nth-child(1){background-color: #ecda73}
+.main-menu .col:nth-child(2){background-color: #c5b870}
+.main-menu .col:nth-child(3){background-color: #ffc04a}
+.main-menu .col:nth-child(5){background-color: #8adcff}
+.main-menu .col:nth-child(6){background-color: #29dfe4}
+.main-menu .col:nth-child(7){background-color: #4bd3c8}
+.main-menu-2 .col:nth-child(2){background-color: #8adcff}
+.main-menu-2 .col:nth-child(3){background-color: #29dfe4}
+.main-menu-2 .col:nth-child(4){background-color: #4bd3c8}
+.main-menu .col.logo {
+  display: inline-block;
+  width: 100%;
+  box-sizing: content-box;
+  margin: 0;
+  background: url(../imgs/logo.jpg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.line-100 {
+  width: 100%;
+  border: 1px solid #eaeaea;
+}
+
+.fa {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  transform: translateY(3px);
+}
+.fa-search {
+  background: url(../imgs/icon-search.png) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.text-bold {
+  font-weight: 700;
+}

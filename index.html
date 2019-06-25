@@ -2,309 +2,334 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title> Document </title>
-  <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+  <title>Сайт кафедры инновационной педагогики МФТИ</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"> -->
   <link rel="stylesheet" type="text/css" href="./css/header.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/index.css"/>
 </head>
 <body>
   <header>
     <div class="header">
-      <div class="header-menu">
-        <div class="link-1"><p><a href=""> Педагогическая практика</a></p></div>
-        <div class="link-2"><p><a href="">Проекты кафедры</a></p></div>
-        <div class="link-3"><p><a href="">Экспертиза</a></p></div>
-        <div class="search">
-          <form action="" method="get">
-            <input name="s" placeholder="Поиск по сайту" type="search">
-            <button type="submit">Поиск</button>
-          </form>
-        </div>
+      <div class="container">
+        <div class="logo-mipt"></div>
+        <p>Московский Физико-Технический Институт (национальный исследовательский университет)</p>
+        <div class="link-contacts"><a href="#">Контакты</a></div>
+        <form class="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск">
+            <div class="input-group-append">
+              <button class="btn btn-light" type="button">
+                <span class="fa fa-search"></span>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+
+    <div class="main-menu container">
+      <div class="row">
+        <div class="col"><a href="#about">О кафедре</a></div>
+        <div class="col"><a href="#team">Команда и дисциплины</a></div>
+        <div class="col"><a href="#schedule">Расписание</a></div>
+        <a href="index.html" class="col logo"></a>
+        <div class="col"><a href="practice.html">Педагогическая практика</a></div>
+        <div class="col"><a href="projects.html">Проекты кафедры</a></div>
+        <div class="col"><a href="examination.html">Экспертиза</a></div>
+      </div>
+    </div>
+
+    <hr class="line-100">
   </header>
 
-    <div class="main-menu">
-      <div class="menu-block"><p>О кафедре</p></div>
-      <div class="menu-block"><p>Состав кафедры</p></div>
-      <div class="menu-block"><img src="">LOGO</div>
-      <div class="menu-block"><p>Расписание</p></div>
-      <div class="menu-block"><p>Контакты</p></div>
+
+  <div class="container">
+    <div class="slider"></div>
+
+    <hr class="line">
+
+    <div id="about" class="description">
+      <h1>О кафедре</h1>
+
+      <div class="pic-left"></div>
+      <p>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции. С 10 января 1918 года — РСФСР. 30 декабря 1922 года РСФСР вместе с другими советскими республиками учредила СССР, неофициально его тоже часто называли «Россией».</p>
+
+      <p>Если смоленские и черниговские князья стремились занять киевское княжение лично, то владимиро-суздальские (с 1157) и галицкие — через младших родственников или союзников. Во Владимиро-Суздальском княжестве после войны за наследство Андрея Боголюбского утвердилась сильная княжеская власть, опиравшееся на новый служилый слой, прообраз дворянства. Главной особенностью Новгородской земли был республиканский строй, при котором вече во главе с боярством назначало посадников, приглашало и изгоняло князей.</p>
+
+      <p>Если смоленские и черниговские князья стремились занять киевское княжение лично, то владимиро-суздальские (с 1157) и галицкие — через младших родственников или союзников. Во Владимиро-Суздальском княжестве после войны за наследство Андрея Боголюбского утвердилась сильная княжеская власть, опиравшееся на новый служилый слой, прообраз дворянства. Главной особенностью Новгородской земли был республиканский строй, при котором вече во главе с боярством назначало посадников, приглашало и изгоняло князей.</p>
     </div>
 
-    <div class="line-1"></div>
+    <hr class="line">
 
-    <div class="index-container">
+    <div id="team" class="people">
+      <h2>Состав кафедры и дисциплины</h2>
 
-      <div class="slaider">
-        <p>Слайдер с новостями</p>
-      </div>
-
-      <div class="line-2"></div>
-
-      <div class="block">
-        <h1>О кафедре</h1>
-        <div class="window">nen fgv</div>
-        <p>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции. С 10 января 1918 года — РСФСР. 30 декабря 1922 года РСФСР вместе с другими советскими республиками учредила СССР, неофициально его тоже часто называли «Россией».</p>
-
-        <p>Если смоленские и черниговские князья стремились занять киевское княжение лично, то владимиро-суздальские (с 1157) и галицкие — через младших родственников или союзников. Во Владимиро-Суздальском княжестве после войны за наследство Андрея Боголюбского утвердилась сильная княжеская власть, опиравшееся на новый служилый слой, прообраз дворянства. Главной особенностью Новгородской земли был республиканский строй, при котором вече во главе с боярством назначало посадников, приглашало и изгоняло князей.</p>
-
-        <p>Если смоленские и черниговские князья стремились занять киевское княжение лично, то владимиро-суздальские (с 1157) и галицкие — через младших родственников или союзников. Во Владимиро-Суздальском княжестве после войны за наследство Андрея Боголюбского утвердилась сильная княжеская власть, опиравшееся на новый служилый слой, прообраз дворянства. Главной особенностью Новгородской земли был республиканский строй, при котором вече во главе с боярством назначало посадников, приглашало и изгоняло князей.</p>
-        <br>
-
-        <ul class="list">
-          <li>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции.</li>
-          <li>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции.</li>
-          <li>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции.</li>
-          <li>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции.</li>
-          <li>Россия была провозглашена республикой 1 сентября 1917 года, хотя фактически стала ею 3 марта 1917 года в результате Февральской революции.</li>
-        </ul>
-
-      </div>
-
-    <div class="line-3"></div>
-
-    <div class="composition-header"><h2>Состав кафедры</h2></div>
-    <div class="composition">
-      <div class="column-1">
-        <div class="photo-1">
-          <img src="">
+      <div class="row justify-content-around">
+        <div class="col">
+          <div class="photo photo-alexandrov"></div>
+          <h3>Александров</h3>
+          <div class="data-list">
+            <ul>
+              <li><span>Лаборатория:</span> название должности</li>
+              <li><span>Должность:</span> название должности</li>
+              <li><span>Степень:</span> название степени</li>
+              <li><span>Телефон:</span> +7(888)-888-88-88</li>
+              <li><span>Кабинет:</span> 213НК</li>
+            </ul>
+          </div>
+          <div class="add-info">
+            <h4>Дисциплина</h4>
+            <p>Здесь также можно предоставить еще какую то основную информацию
+            о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+          </div>
         </div>
-        <h3>Иванов Иван Иванович</h3>
-        <div class="data-list">
-          <ul>
-            <li><span>Лаборатория:</span> название должности</li>
-            <li><span>Должность:</span> название должности</li>
-            <li><span>Степень:</span> название степени</li>
-            <li><span>Телефон:</span> +7(888)-888-88-88</li>
-            <li><span>Кабинет:</span> 213НК</li>
-          </ul>
-        </div>
-        <div class="add-info">
-          <p>Здесь также можно предоставить еще какую то основную информацию
-          о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
-        </div>
-      </div>
 
+        <div class="col">
+          <div class="photo photo-lukyanov"></div>
+          <h3>Лукьянов</h3>
+          <div class="data-list">
+            <ul>
+              <li><span>Лаборатория:</span> название должности</li>
+              <li><span>Должность:</span> название должности</li>
+              <li><span>Степень:</span> название степени</li>
+              <li><span>Телефон:</span> +7(888)-888-88-88</li>
+              <li><span>Кабинет:</span> 213НК</li>
+            </ul>
+          </div>
+          <div class="add-info">
+            <h4>Дисциплина</h4>
+            <p>Здесь также можно предоставить еще какую то основную информацию
+            о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+          </div>
+        </div>
 
-      <div class="column-2">
-        <div class="photo-2">
-          <img src="">
-        </div>
-        <h3>Иванов Иван Иванович</h3>
-        <div class="data-list">
-          <ul>
-            <li><span>Лаборатория:</span> название должности</li>
-            <li><span>Должность:</span> название должности</li>
-            <li><span>Степень:</span> название степени</li>
-            <li><span>Телефон:</span> +7(888)-888-88-88</li>
-            <li><span>Кабинет:</span> 213НК</li>
-          </ul>
-        </div>
-        <div class="add-info">
-          <p>Здесь также можно предоставить еще какую то основную информацию
-          о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+        <div class="col">
+          <div class="photo photo-fomin"></div>
+          <h3>Фомин</h3>
+          <div class="data-list">
+            <ul>
+              <li><span>Лаборатория:</span> название должности</li>
+              <li><span>Должность:</span> название должности</li>
+              <li><span>Степень:</span> название степени</li>
+              <li><span>Телефон:</span> +7(888)-888-88-88</li>
+              <li><span>Кабинет:</span> 213НК</li>
+            </ul>
+          </div>
+          <div class="add-info">
+            <h4>Дисциплина</h4>
+            <p>Здесь также можно предоставить еще какую то основную информацию
+            о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+          </div>
         </div>
       </div>
 
-      <div class="column-3">
-        <div class="photo-3">
-          <img src="">
+      <div class="row justify-content-around">
+        <div class="col">
+          <div class="photo photo-chernikov"></div>
+          <h3>Черников</h3>
+          <div class="data-list">
+            <ul>
+              <li><span>Лаборатория:</span> название должности</li>
+              <li><span>Должность:</span> название должности</li>
+              <li><span>Степень:</span> название степени</li>
+              <li><span>Телефон:</span> +7(888)-888-88-88</li>
+              <li><span>Кабинет:</span> 213НК</li>
+            </ul>
+          </div>
+          <div class="add-info">
+            <h4>Дисциплина</h4>
+            <p>Здесь также можно предоставить еще какую то основную информацию
+            о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+          </div>
         </div>
-        <h3>Иванов Иван Иванович</h3>
-        <div class="data-list">
-          <ul>
-            <li><span>Лаборатория:</span> название должности</li>
-            <li><span>Должность:</span> название должности</li>
-            <li><span>Степень:</span> название степени</li>
-            <li><span>Телефон:</span> +7(888)-888-88-88</li>
-            <li><span>Кабинет:</span> 213НК</li>
-          </ul>
-        </div>
-        <div class="add-info">
-          <p>Здесь также можно предоставить еще какую то основную информацию
-          о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+
+        <div class="col">
+          <div class="photo photo-yaschenko"></div>
+          <h3>Ященко</h3>
+          <div class="data-list">
+            <ul>
+              <li><span>Лаборатория:</span> название должности</li>
+              <li><span>Должность:</span> название должности</li>
+              <li><span>Степень:</span> название степени</li>
+              <li><span>Телефон:</span> +7(888)-888-88-88</li>
+              <li><span>Кабинет:</span> 213НК</li>
+            </ul>
+          </div>
+          <div class="add-info">
+            <h4>Дисциплина</h4>
+            <p>Здесь также можно предоставить еще какую то основную информацию
+            о сотруднике.Здесь также можно предоставить еще какую то основную информацию о сотруднике.</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="line-4"></div>
+    <hr class="line">
 
-    <div class="schedule-header">
+    <div id="schedule" class="schedule">
       <h2>Расписание</h2>
-    </div>
+      <div class="row text-center">
+        <div class="col">
+          <h4>Осенний семестр</h4>
+          <div class="row">
+            <div class="col">
+              <div class="course">
+                <span class="number">2</span><br>
+                <span class="text">курс</span>
+              </div>
+              <div class="week-day text-bold">Понедельник</div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+            </div>
 
-    <div class="schedule">
-      <div class="column-data-1">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
-          </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-      </div>
+            <div class="col">
+              <div class="course">
+                <span class="number">3</span><br>
+                <span class="text">курс</span>
+              </div>
+              <div class="week-day text-bold">Среда</div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+            </div>
 
-      <div class="column-data-2">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
+            <div class="col">
+              <div class="course">
+                <span class="number">4</span><br>
+                <span class="text">курс</span>
+              </div>
+              <div class="week-day text-bold">Пятница</div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+            </div>
           </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-      </div>
+        </div>
 
-      <div class="column-data-3">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
-          </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-      </div>
+        <div class="col">
+          <h4>Весенний семестр</h4>
+          <div class="row">
+            <div class="col">
+              <div class="course">
+                <span class="number">2</span><br>
+                <span class="text">курс</span>
+              </div>
+              <div class="week-day text-bold">Понедельник</div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+            </div>
 
-      <div class="column-data-4">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
-          </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-      </div>
+            <div class="col">
+              <div class="course">
+                <span class="number">3</span><br>
+                <span class="text">курс</span>
+              </div>
+              <div class="week-day text-bold">Среда</div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+            </div>
 
-      <div class="column-data-5">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
+            <div class="col">
+              <div class="course">
+                <span class="number">4</span><br>
+                <span class="text">курс</span>
+              </div>
+              <div class="week-day text-bold">Пятница</div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+              <div class="event">
+                <div class="time">13:00 – 15:00</div>
+                <div class="small">Название предмета, место (преподаватель)</div>
+              </div>
+            </div>
           </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-      </div>
-
-      <div class="column-data-6">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
-          </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-      </div>
-
-      <div class="column-data-7">
-          <div class="data">
-            <span class="number">3</span><br><span class="month">июня</span>
-          </div>
-          <div class="event-1">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
-          <div class="event-2">
-            <div class="time"><p>13:00 - 15:00</p></div>
-            <div><p>Название</p></div>
-            <div><p>мероприятия</p></div>
-          </div>
+        </div>
       </div>
     </div>
 
-    <div class="schedule-header-2">
-      <h2><a href="">Расписание на месяц</a></h2>
-    </div>
-    <div class="menu">
-      <div class="previous-week"><a href=""> Предыдущая неделя</a></div>
-      <div class="next-week"><a href=""> Следующая неделя</a></div>
-    </div>
+    <hr class="line">
 
-    <div class="line-5"></div>
-
-    <div class="contacts-header"><h2>Контакты</h2></div>
     <div class="contacts">
-      <div class="contacts-block">
-        <div class="string">Телефон:</div>
-        <div class="string-2">+7(888)-888-88-88</div>
-      </div>
+      <h2>Контакты</h2>
 
-      <div class="contacts-block">
-        <div class="string">E-mail:</div>
-        <div class="string-2">Edfisi@mail.ru</div>
-      </div>
+      <div class="row text-center">
+        <div class="col">
+          <div class="text-bold">Телефон:</div>
+          <div>+7 (888) 888–88–88</div>
+        </div>
 
-      <div class="contacts-block">
-        <div class="string">Адрес:</div>
-        <div class="string-2">Овчинникова 12,42 каб.2</div>
-      </div>
+        <div class="col">
+          <div class="text-bold">E-mail:</div>
+          <div>e@mail.ru</div>
+        </div>
 
-      <div class="contacts-block">
-        <div class="string">Часы работы:</div>
-        <div class="string-2">13:00 - 15:00</div>
-        <div class="string-3">Перерыв 13:00 - 15:00</div>
+        <div class="col">
+          <div class="text-bold">Адрес:</div>
+          <div>Институтский пер., д. 9, стр. 2</div>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="line-6"></div>
-
   <footer class="footer">
-    <div class="main-menu">
-      <div class="menu-block"><p>О кафедре</p></div>
-      <div class="menu-block"><p>Состав кафедры</p></div>
-      <div class="menu-block"><img src="">LOGO</div>
-      <div class="menu-block"><p>Расписание</p></div>
-      <div class="menu-block"><p>Контакты</p></div>
+    <hr class="line-100">
+
+    <div class="main-menu container">
+      <div class="row">
+        <div class="col"><a href="#about">О кафедре</a></div>
+        <div class="col"><a href="#team">Команда и дисциплины</a></div>
+        <div class="col"><a href="#schedule">Расписание</a></div>
+        <a href="index.html" class="col logo"></a>
+        <div class="col"><a href="practice.html">Педагогическая практика</a></div>
+        <div class="col"><a href="projects.html">Проекты кафедры</a></div>
+        <div class="col"><a href="examination.html">Экспертиза</a></div>
+      </div>
     </div>
+
     <div class="header">
-      <div class="header-menu">
-        <div class="link-1"><p><a href="">Педагогическая практика</a></p></div>
-        <div class="link-2"><p><a href="">Проекты кафедры</a></p></div>
-        <div class="link-3"><p><a href="">Экспертиза</a></p></div>
-        <div class="search">
-          <form action="" method="get">
-            <input name="s" placeholder="Поиск по сайту" type="search">
-            <button type="submit">Поиск</button>
-          </form>
-        </div>
+      <div class="container">
+        <div class="logo-mipt"></div>
+        <p>Московский Физико-Технический Институт (национальный исследовательский университет)</p>
+        <div class="link-contacts"><a href="#">Контакты</a></div>
+        <form class="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-light" type="button" id="button-addon2">
+                <span class="fa fa-search"></span>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

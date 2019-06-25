@@ -2,33 +2,43 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title> Document </title>
-  <link rel="stylesheet" type="text/css" href="./css/examination.css"/>
+  <title>Сайт кафедры инновационной педагогики МФТИ</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"> -->
   <link rel="stylesheet" type="text/css" href="./css/header.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/examination.css"/>
 </head>
 <body>
   <header>
     <div class="header">
-      <div class="header-menu">
-        <div class="link-1"><p><a href=""> Педагогическая практика</a></p></div>
-        <div class="link-2"><p><a href="">Проекты кафедры</a></p></div>
-        <div class="link-3"><p><a href="">Экспертиза</a></p></div>
-        <div class="search">
-          <form action="" method="get">
-            <input name="s" placeholder="Поиск по сайту" type="search">
-            <button type="submit">Поиск</button>
-          </form>
-        </div>
+      <div class="container">
+        <div class="logo-mipt"></div>
+        <p>Московский Физико-Технический Институт (национальный исследовательский университет)</p>
+        <div class="link-contacts"><a href="#">Контакты</a></div>
+        <form class="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-light" type="button" id="button-addon2">
+                <span class="fa fa-search"></span>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+
+    <div class="main-menu main-menu-2 container">
+      <div class="row">
+        <a href="index.html" class="col logo"></a>
+        <div class="col"><a href="practice.html">Педагогическая практика</a></div>
+        <div class="col"><a href="projects.html">Проекты кафедры</a></div>
+        <div class="col"><a href="examination.html">Экспертиза</a></div>
+      </div>
+    </div>
+
+    <hr class="line-100">
   </header>
-
-  <div class="main-menu">
-    <div class="menu-block"><img src="">LOGO</div>
-    <div class="menu-block"><p>Экспертиза</p></div>
-  </div>
-
-  <div class="line-1"></div>
 
   <div class="examination-container">
     <div class="headpiece">Тематическая заставка-иллюстрация</div>
@@ -97,25 +107,39 @@
 
   </div>
 
-  <div class="main-menu">
-    <div class="menu-block"><img src="">LOGO</div>
-    <div class="menu-block"><p>Экспертиза</p></div>
-  </div>
-
   <footer class="footer">
+    <hr class="line-100">
+
+    <div class="main-menu main-menu-2 container">
+      <div class="row">
+        <a href="index.html" class="col logo"></a>
+        <div class="col"><a href="index.html">Главная</a></div>
+        <div class="col"><a href="practice.html">Педагогическая практика</a></div>
+        <div class="col"><a href="projects.html">Проекты кафедры</a></div>
+      </div>
+    </div>
+
     <div class="header">
-      <div class="header-menu">
-        <div class="link-1"><p><a href=""> Педагогическая практика</a></p></div>
-        <div class="link-2"><p><a href="">Проекты кафедры</a></p></div>
-        <div class="link-3"><p><a href="">Экспертиза</a></p></div>
-        <div class="search">
-          <form action="" method="get">
-            <input name="s" placeholder="Поиск по сайту" type="search">
-            <button type="submit">Поиск</button>
-          </form>
-        </div>
+      <div class="container">
+        <div class="logo-mipt"></div>
+        <p>Московский Физико-Технический Институт (национальный исследовательский университет)</p>
+        <div class="link-contacts"><a href="#">Контакты</a></div>
+        <form class="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-light" type="button" id="button-addon2">
+                <span class="fa fa-search"></span>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
