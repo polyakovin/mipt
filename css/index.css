@@ -22,7 +22,7 @@
   margin-bottom: 30px;
   background: url(../imgs/index/pic1.png) no-repeat;
   background-size: cover;
-  background-position: center 0;
+  background-position: center bottom;
 }
 
 .people .col {
