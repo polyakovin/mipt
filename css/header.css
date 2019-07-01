@@ -53,22 +53,10 @@ h1, h2, h3, h4 {
   margin: 15px;
   padding: 10px;
   display: flex;
+  background-color: #8adcff;
+  text-align: center;
 }
-
-.main-menu .col:hover {
-  opacity: .8;
-}
-
-.main-menu .col a {
-  color: black;
-  align-self: center;
-}
-
-.main-menu .col a:hover {
-  text-decoration: none;
-}
-
-.main-menu .col:nth-child(1){background-color: #ecda73}
+/*.main-menu .col:nth-child(1){background-color: #ecda73}
 .main-menu .col:nth-child(2){background-color: #c5b870}
 .main-menu .col:nth-child(3){background-color: #ffc04a}
 .main-menu .col:nth-child(5){background-color: #8adcff}
@@ -76,7 +64,22 @@ h1, h2, h3, h4 {
 .main-menu .col:nth-child(7){background-color: #4bd3c8}
 .main-menu-2 .col:nth-child(2){background-color: #8adcff}
 .main-menu-2 .col:nth-child(3){background-color: #29dfe4}
-.main-menu-2 .col:nth-child(4){background-color: #4bd3c8}
+.main-menu-2 .col:nth-child(4){background-color: #4bd3c8}*/
+
+.main-menu .col:hover {
+  opacity: .8;
+}
+
+.main-menu .col a {
+  color: black;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+}
+
+.main-menu .col a:hover {
+  text-decoration: none;
+}
 .main-menu .col.logo {
   display: inline-block;
   width: 100%;

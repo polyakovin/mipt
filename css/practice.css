@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
 }
-
+/*
 .main-menu {
   margin: 20px auto 20px auto;
   display: flex;
@@ -19,7 +19,7 @@
 
 .main-menu p{
   margin: 30px auto;
-}
+}*/
 
 .menu-block-1 {
   width: 120px;
@@ -51,9 +51,11 @@
 }
 
 .headpiece {
-  height: 250px;
+  height: 300px;
   margin-bottom: 20px;
-  background-color: #ccc;
+  background: url(../imgs/practice.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .text-info {
@@ -152,11 +154,26 @@
 
 .school-img {
   width: 100px;
-  height: 100px;
+  /*height: 100px;*/
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
-  background-color: #ccc;
+  /*border-radius: 50%;*/
+  /*background-color: #ccc;*/
+}
+
+.school-img-frtk {
+  width: 200px;
+  padding-top: 20px;
+}
+
+.school-img-fpmi {
+  width: 170px;
+  padding-top: 60px;
+}
+
+.school-img img {
+  width: 100%;
+  height: auto;
 }
 
 .school-img p{

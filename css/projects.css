@@ -88,7 +88,7 @@
 }
 
 .column-right {
-  width: 800px;
+  /*width: 800px;*/
   height: 100%;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .video-block {
-  width: 800px;
+  /*width: 800px;*/
   height: 400px;
   background-color: #ccc;
   margin: 20px auto 20px auto;
@@ -144,7 +144,7 @@
   flex-wrap: nowrap;
   text-align: center;
   justify-content: space-between;
-  width: 800px;
+  /*width: 800px;*/
 }
 
 .bottom-block {
