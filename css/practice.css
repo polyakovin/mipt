@@ -51,9 +51,9 @@
 }
 
 .headpiece {
-  height: 300px;
+  height: 250px;
   margin-bottom: 20px;
-  background: url(../imgs/practice.jpg) no-repeat;
+  background: url(../imgs/sliders/practice.png) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -128,8 +128,8 @@
   background-color: #ccc;
 }
 
-.button-download p {
-  padding-top: 10px;
+.button-download div {
+  padding-top: 8px;
 }
 
 .school-header h2{
