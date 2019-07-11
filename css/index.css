@@ -1,5 +1,5 @@
 .slider {
-  background: url(../imgs/sliders/index.png) no-repeat;
+  background: url(../imgs/index/slider1.jpg) no-repeat;
   background-size: cover;
   background-position: center 0;
   width: 100%;
@@ -30,8 +30,8 @@
 }
 
 .photo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 10px auto 20px auto;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -56,13 +56,8 @@
   background-image: url(../imgs/people/yaschenko.jpg);
 }
 
-.data-list {
-  margin-left: 50px;
-}
-
 .add-info {
-  width: 260px;
-  margin: 30px 0 90px 50px;
+  margin-top: 30px;
 }
 
 .schedule > .row > .col:first-child {
@@ -101,4 +96,18 @@
 
 .contacts {
   margin-bottom: 70px;
+}
+
+#team h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#team h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#team p {
+  font-size: .9rem;
 }

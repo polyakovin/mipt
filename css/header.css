@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 :root {
   --blue: #1471b7;
 }
@@ -53,8 +59,11 @@ h1, h2, h3, h4 {
   margin: 15px;
   padding: 10px;
   display: flex;
-  background-color: #8adcff;
+  /*background-color: #8adcff;*/
+  background-repeat: no-repeat;
+  background-position: center center;
   text-align: center;
+  transform: translateY(-20px);
 }
 /*.main-menu .col:nth-child(1){background-color: #ecda73}
 .main-menu .col:nth-child(2){background-color: #c5b870}
@@ -65,16 +74,26 @@ h1, h2, h3, h4 {
 .main-menu-2 .col:nth-child(2){background-color: #8adcff}
 .main-menu-2 .col:nth-child(3){background-color: #29dfe4}
 .main-menu-2 .col:nth-child(4){background-color: #4bd3c8}*/
+.main-menu .col:nth-child(1){background-image: url(../imgs/icons/01.png)}
+.main-menu .col:nth-child(2){background-image: url(../imgs/icons/02.png)}
+.main-menu .col:nth-child(3){background-image: url(../imgs/icons/03.png)}
+.main-menu .col:nth-child(4){background-image: url(../imgs/icons/06.png)}
+.main-menu .col:nth-child(5){background-image: url(../imgs/icons/04.png)}
+.main-menu .col:nth-child(6){background-image: url(../imgs/icons/05.png)}
+.main-menu .col:nth-child(7){background-image: url(../imgs/icons/06.png)}
 
 .main-menu .col:hover {
   opacity: .8;
 }
 
 .main-menu .col a {
-  color: black;
+  color: #000;
   width: 100%;
-  align-self: center;
+  align-self: flex-start;
   text-align: center;
+  /*transform: translateY(65px);*/
+  padding-top: 65px;
+  line-height: 1;
 }
 
 .main-menu .col a:hover {
@@ -88,6 +107,7 @@ h1, h2, h3, h4 {
   background: url(../imgs/logo.jpg) no-repeat;
   background-size: contain;
   background-position: center center;
+  transform: translateY(0px);
 }
 
 .line-100 {
