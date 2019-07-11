@@ -54,7 +54,7 @@
   height: 250px;
   margin-bottom: 20px;
   background: url(../imgs/sliders/practice_white.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 }
 

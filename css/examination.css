@@ -38,7 +38,7 @@
   height: 250px;
   margin-bottom: 20px;
   background: url(../imgs/sliders/examination_white.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 }
 
@@ -88,4 +88,56 @@
   margin: 60px auto 0;
   text-align: center;
   background-color: #ccc;
+}
+
+
+
+.documents {
+  margin: 19px auto 20px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.column-1 {
+  width: 254px;
+  margin: 20px auto;
+}
+
+.window-document {
+  width: 180px;
+  height: 220px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: #ccc;
+}
+
+.window-document p{
+  margin-top: 100px;
+}
+
+.name-document {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description-document {
+  width: 180px;
+  margin: 10px auto;
+  font-size: 13px;
+}
+
+.button-download {
+  width: 180px;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 15px;
+  background-color: #ccc;
+}
+
+.button-download div {
+  padding-top: 8px;
 }
