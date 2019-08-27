@@ -61,7 +61,7 @@
 }
 
 .schedule > .row > .col:first-child {
-  border-right: 2px solid var(--blue);
+  border-right: 0px solid var(--blue);
 }
 
 .course {
