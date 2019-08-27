@@ -92,7 +92,7 @@
 .time {
   font-size: 14px;
   font-weight: bold;
-  font-color: blue;
+  color: var(--blue);
 }
 
 .contacts {
