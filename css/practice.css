@@ -60,6 +60,7 @@
 
 .text-info {
   text-align: left;
+  color: var(--black);
 }
 
 .line-2 {
