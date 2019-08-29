@@ -58,10 +58,11 @@
   background-position: center center;
 }
 
+
 .text-info {
   text-align: left;
-  color: var(--black);
 }
+
 
 .line-2 {
   width: 200px;
