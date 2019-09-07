@@ -18,9 +18,9 @@
   width: 450px;
   float: left;
   height: 230px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  background: url(../imgs/team-06.svg) no-repeat;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: url(../imgs/team.png) no-repeat;
   background-size: contain;
   background-position: center top;
 }
