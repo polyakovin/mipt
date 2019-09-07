@@ -72,13 +72,13 @@ h1, h2, h3, h4 {
 .main-menu-2 .col:nth-child(2){background-color: #8adcff}
 .main-menu-2 .col:nth-child(3){background-color: #29dfe4}
 .main-menu-2 .col:nth-child(4){background-color: #4bd3c8}*/
-.main-menu .col:nth-child(1):not(.logo){background-image: url(../imgs/icons/01.png)}
-.main-menu .col:nth-child(2){background-image: url(../imgs/icons/02.png)}
-.main-menu .col:nth-child(3){background-image: url(../imgs/icons/03.png)}
-.main-menu .col:nth-child(4):not(.logo){background-image: url(../imgs/icons/06.png)}
-.main-menu .col:nth-child(5){background-image: url(../imgs/icons/04.png)}
-.main-menu .col:nth-child(6){background-image: url(../imgs/icons/05.png)}
-.main-menu .col:nth-child(7){background-image: url(../imgs/icons/06.png)}
+.main-menu .col:nth-child(1):not(.logo){background-image: url(../imgs/icons/01.svg)}
+.main-menu .col:nth-child(2){background-image: url(../imgs/icons/02.svg)}
+.main-menu .col:nth-child(3){background-image: url(../imgs/icons/03.svg)}
+.main-menu .col:nth-child(4):not(.logo){background-image: url(../imgs/icons/06.svg)}
+.main-menu .col:nth-child(5){background-image: url(../imgs/icons/04.svg)}
+.main-menu .col:nth-child(6){background-image: url(../imgs/icons/05.svg)}
+.main-menu .col:nth-child(7){background-image: url(../imgs/icons/06.svg)}
 
 .main-menu .col:hover {
   opacity: .8;
