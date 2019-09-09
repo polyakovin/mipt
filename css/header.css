@@ -108,7 +108,7 @@ h1, h2, h3, h4 {
 .main-menu .col.logo .logo-kafedra {
   display: inline-block;
   width: 100%;
-  background: url(../imgs/logo.jpg) no-repeat;
+  background: url(../imgs/logo.svg) no-repeat;
   background-size: contain;
   background-position: center center;
   transform: translateY(-10px) scale(1.2);
