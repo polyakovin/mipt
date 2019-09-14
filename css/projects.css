@@ -92,6 +92,13 @@
   height: 100%;
 }
 
+
+.line {
+  margin: 70px auto 20px auto;
+  width: 20%;
+  border: 1px solid var(--blue);
+}
+
 .line-2 {
   width: 200px;
   height: 2px;
