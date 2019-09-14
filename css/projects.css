@@ -129,6 +129,17 @@
   background-position: center top;
 }
 
+.pic-top_AutumnSchool {
+  width: 300px;
+  float: left;
+  height: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: url(../imgs/logos/PhysSchoolOsen2019.jpg) no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
+
 .text-block {
   text-align: left;
   width: 100%;
