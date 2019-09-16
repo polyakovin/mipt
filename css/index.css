@@ -56,6 +56,27 @@
   background-image: url(../imgs/people/yaschenko.jpg);
 }
 
+
+.photo-oreshko {
+  background-image: url(../imgs/people/oreshko.jpg);
+}
+
+.photo-rastorguev {
+  background-image: url(../imgs/people/rastorguev.jpg);
+}
+
+.photo-surdin {
+  background-image: url(../imgs/people/surdin.jpg);
+}
+
+.photo-svechnikov {
+  background-image: url(../imgs/people/svechnikov.jpg);
+}
+
+.photo-voitsik {
+  background-image: url(../imgs/people/voitsik.jpg);
+}
+
 .add-info {
   margin-top: 30px;
 }
