@@ -128,10 +128,10 @@
 .pic-top_psycho {
   width: 300px;
   float: left;
-  height: 114px;
+  height: 300px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: url(../imgs/index/people.svg) no-repeat;
+  background: url(../imgs/projects/mathlec.jpg) no-repeat;
   background-size: contain;
   background-position: center top;
 }
@@ -139,20 +139,19 @@
 .pic-top_mathlec {
   width: 300px;
   float: left;
-  height: 155px;
+  height: 300px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: url(../imgs/projects/Mathlec.jpg) no-repeat;
+  background: url(../imgs/projects/mathlec.jpg) no-repeat;
   background-size: contain;
   background-position: center top;
 }
 
 .pic-top_vpr {
-  width: 154px;
+  width: 300px;
   float: left;
-  height: 138px;
-  margin-left: 78px;
-  margin-right: 98px;
+  height: 300px;
+  margin-right: 30px;
   margin-bottom: 30px;
   background: url(../imgs/projects/vpr.jpg) no-repeat;
   background-size: contain;
