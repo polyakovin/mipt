@@ -131,7 +131,7 @@
   height: 300px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: url(../imgs/projects/psycho.jpg) no-repeat;
+  background: url(../imgs/projects/psycho.png) no-repeat;
   background-size: contain;
   background-position: center top;
 }
@@ -142,7 +142,7 @@
   height: 300px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: url(../imgs/projects/mathlec.jpg) no-repeat;
+  background: url(../imgs/projects/mathlec.png) no-repeat;
   background-size: contain;
   background-position: center top;
 }
@@ -153,7 +153,7 @@
   height: 300px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: url(../imgs/projects/vpr.jpg) no-repeat;
+  background: url(../imgs/projects/vpr.png) no-repeat;
   background-size: contain;
   background-position: center top;
 }
