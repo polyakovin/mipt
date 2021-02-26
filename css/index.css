@@ -125,7 +125,18 @@
 .photo-voitsik {
   background-image: url(../imgs/people/voitsik.jpg);
 }
-
+.photo-chivilev {
+  background-image: url(../imgs/people/voitsik.jpg);
+}
+.photo-sherbakov {
+  background-image: url(../imgs/people/voitsik.jpg);
+}
+.photo-kozyrine {
+  background-image: url(../imgs/people/voitsik.jpg);
+}
+.photo-svistunov {
+  background-image: url(../imgs/people/voitsik.jpg);
+}
 .add-info {
   margin-top: 30px;
   text-align: center;
